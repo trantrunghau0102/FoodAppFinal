@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.RecipeDetail">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:titleTextColor="@color/actionbartitle"
+        app:title="BBH"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:id="@+id/toolbardetail"
+        android:background="@color/actionbarbg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+</LinearLayout>

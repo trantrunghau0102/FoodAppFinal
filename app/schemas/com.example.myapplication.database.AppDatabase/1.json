@@ -1,0 +1,82 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "19141e58c1846f66881c07f91f9e1818",
+    "entities": [
+      {
+        "tableName": "items",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `tenMon` TEXT, `linkAnh` TEXT, `moTa` TEXT, `nguyenLieu` TEXT, `soChe` TEXT, `cachNau` TEXT, `idUser` INTEGER NOT NULL, `favorite` TEXT, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tenMon",
+            "columnName": "tenMon",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "linkAnh",
+            "columnName": "linkAnh",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "moTa",
+            "columnName": "moTa",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "nguyenLieu",
+            "columnName": "nguyenLieu",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "soChe",
+            "columnName": "soChe",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "cachNau",
+            "columnName": "cachNau",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "idUser",
+            "columnName": "idUser",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "favorite",
+            "columnName": "favorite",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '19141e58c1846f66881c07f91f9e1818')"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "612910760961",
+    "project_id": "chef-f8e9a",
+    "storage_bucket": "chef-f8e9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612910760961:android:3590a8a7d1492ed4786c00",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612910760961-u0mkoa8ck4uljh61mfeoj5lkie09avnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "9f24b7e866e5e7556c25914bdcad77f5772f27c7"
+          }
+        },
+        {
+          "client_id": "612910760961-0j8g1l8bcsbupnjghng5hk75debr15t5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiyHu-aGJDvHsgWYVFSqji151IWxCcdDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612910760961-0j8g1l8bcsbupnjghng5hk75debr15t5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

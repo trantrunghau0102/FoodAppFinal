@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5.386"
+    tools:context=".view.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cuisine" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/work_sans_semibold"
+            android:gravity="center_horizontal"
+            android:text="All the recipes"
+            android:textColor="#023047"
+            android:textSize="30sp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/work_sans_semibold"
+            android:gravity="center_horizontal"
+            android:text="on your fingertips"
+            android:textColor="#023047"
+            android:textSize="30sp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito"
+            android:gravity="center_horizontal"
+            android:text="Nấu ăn dễ dàng hơn với Cuisine"
+            android:textColor="#023047"
+            android:textSize="17sp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.886"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:textAllCaps="false"
+            android:backgroundTint="@color/actionbartitle"
+            android:id="@+id/wel_btn_register"
+            android:layout_width="630px"
+            android:layout_height="51dp"
+            android:fontFamily="@font/work_sans_semibold"
+            android:text="Đăng ký ngay"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textColor="#023047"
+            android:textSize="17sp"></TextView>
+
+        <Button
+            android:textAllCaps="false"
+            android:backgroundTint="#03A9F4"
+            android:id="@+id/wel_btn_login"
+            android:layout_width="630px"
+            android:layout_height="51dp"
+            android:fontFamily="@font/work_sans_semibold"
+            android:text="Đăng nhập"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
