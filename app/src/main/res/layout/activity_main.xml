@@ -76,12 +76,12 @@
 
         <Button
             android:textAllCaps="false"
-            android:backgroundTint="@color/actionbartitle"
-            android:id="@+id/wel_btn_register"
+            android:backgroundTint="@color/main_color"
+            android:id="@+id/wel_btn_login"
             android:layout_width="630px"
             android:layout_height="51dp"
             android:fontFamily="@font/work_sans_semibold"
-            android:text="Đăng ký ngay"
+            android:text="Đăng nhập"
             android:textColor="#ffffff"
             android:textSize="18sp" />
 
@@ -96,14 +96,14 @@
 
         <Button
             android:textAllCaps="false"
-            android:backgroundTint="#03A9F4"
-            android:id="@+id/wel_btn_login"
+            android:backgroundTint="#A68787"
+            android:id="@+id/wel_btn_register"
             android:layout_width="630px"
             android:layout_height="51dp"
             android:fontFamily="@font/work_sans_semibold"
-            android:text="Đăng nhập"
+            android:text="Đăng ký ngay"
             android:textColor="#ffffff"
-            android:textSize="18sp" />
+            android:textSize="14dp" />
     </LinearLayout>
 
 </LinearLayout>
