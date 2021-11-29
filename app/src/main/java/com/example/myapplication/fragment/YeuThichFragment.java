@@ -92,7 +92,7 @@ public class YeuThichFragment extends Fragment {
 
                                 AdapterYeuThich adapterYeuThich = new AdapterYeuThich(getContext(), list);
                                 recyclerView.setAdapter(adapterYeuThich);
-                                recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 3));
+                                recyclerView.setLayoutManager(new GridLayoutManager(getContext(), 2));
 
                             }
                         });

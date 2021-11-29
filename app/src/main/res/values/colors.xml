@@ -11,4 +11,5 @@
     <color name="actionbartitle">#023047</color>
     <color name="color_status">#F8B656</color>
     <color name="backgroud">#FDCB83</color>
+    <color name="item_background">#F5F7F7</color>
 </resources>
