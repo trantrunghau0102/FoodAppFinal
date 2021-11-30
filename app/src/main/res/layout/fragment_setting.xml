@@ -2,7 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/item_background">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -14,14 +15,14 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="10dp"
             android:layout_marginBottom="10dp"
             android:gravity="center"
             android:text="Cài đặt "
-            android:textColor="@color/black"
+            android:textColor="@color/logo_color"
             android:textSize="30sp"
             android:textStyle="bold" />
 
@@ -32,13 +33,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="200dp"
         android:layout_marginRight="40dp"
         android:elevation="100dp"
         app:cardElevation="5dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/linearLayout">
+        app:layout_constraintTop_toBottomOf="@id/linearLayout"
+        app:cardCornerRadius="20dp">
 
         <Button
             android:id="@+id/btnChangePass"
@@ -61,15 +63,17 @@
         app:cardElevation="5dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/cardView">
+        app:layout_constraintTop_toBottomOf="@id/cardView"
+        app:cardCornerRadius="20dp">
 
-        <Button
+
+    <Button
             android:id="@+id/btnExit"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:backgroundTint="@color/white"
             android:text="Đăng xuất"
-            android:textAllCaps="false"
+            android:textAllCaps="true"
             android:textColor="@color/actionbartitle" />
 
     </androidx.cardview.widget.CardView>

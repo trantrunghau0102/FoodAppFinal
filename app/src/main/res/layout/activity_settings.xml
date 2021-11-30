@@ -21,7 +21,7 @@
             android:fontFamily="@font/work_sans_semibold"
             android:paddingLeft="60dp"
             android:text="Cài đặt"
-            android:textColor="#023047"
+            android:textColor="@color/logo_color"
             android:textSize="24sp"></TextView>
     </LinearLayout>
 </LinearLayout>

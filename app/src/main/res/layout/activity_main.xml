@@ -96,7 +96,7 @@
 
         <Button
             android:textAllCaps="false"
-            android:backgroundTint="#A68787"
+            android:backgroundTint="#023047"
             android:id="@+id/wel_btn_register"
             android:layout_width="630px"
             android:layout_height="51dp"
