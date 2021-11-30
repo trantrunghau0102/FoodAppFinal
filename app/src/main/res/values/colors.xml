@@ -9,7 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="actionbarbg">#FFB703</color>
     <color name="actionbartitle">#023047</color>
-    <color name="color_status">#F8B656</color>
+    <color name="color_status">#8F0F1C</color>
+    <color name="logo_color">#fbbf14</color>
     <color name="backgroud">#FDCB83</color>
     <color name="item_background">#F5F7F7</color>
     <color name="textcolor_type">#219EBC</color>
