@@ -61,19 +61,19 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <ImageView
-            android:id="@+id/imgdetail"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout"/>
+<!--        <ImageView-->
+<!--            android:id="@+id/imgdetail"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="200dp"-->
+<!--            app:layout_constraintLeft_toLeftOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/linearLayout"/>-->
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/contranlayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/imgdetail">
+            app:layout_constraintTop_toBottomOf="@id/linearLayout">
 
             <TextView
                 android:layout_width="wrap_content"

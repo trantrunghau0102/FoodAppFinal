@@ -21,7 +21,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginBottom="10dp"
             android:gravity="center"
-            android:text="Cài đặt "
+            android:text="Cài đặt"
             android:textColor="@color/logo_color"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -73,7 +73,7 @@
             android:layout_height="match_parent"
             android:backgroundTint="@color/white"
             android:text="Đăng xuất"
-            android:textAllCaps="true"
+            android:textAllCaps="false"
             android:textColor="@color/actionbartitle" />
 
     </androidx.cardview.widget.CardView>
